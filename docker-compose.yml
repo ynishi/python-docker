@@ -1,0 +1,6 @@
+version: '3'
+services:
+  py:
+    image: py_prj
+    volumes:
+      - .:/code
