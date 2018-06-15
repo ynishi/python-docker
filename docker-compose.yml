@@ -1,6 +1,25 @@
 version: '3'
 services:
-  py:
+  jupyterlab:
     image: py_prj
     volumes:
       - .:/code
+    ports:
+      - "8888:8888"
+    links:
+      - app
+      - chrome
+    command: jupyter lab --ip=0.0.0.0 --allow-root
+  app:
+    image: py_prj
+    volumes:
+      - .:/code
+    ports:
+      - "5000:5000"
+  chrome:
+    image: selenium/standalone-chrome-debug:3.12.0-cobalt
+    volumes:
+      -  /dev/shm:/dev/shm
+    ports:
+      - "4444:4444"
+      - "5900:5900"

@@ -2,8 +2,8 @@ FROM python:3
 
 RUN mkdir /code
 WORKDIR /code
-ADD requirements.txt /code/
+COPY requirements.txt /code/
 RUN pip install -r requirements.txt
-ADD . /code/
+COPY . /code/
 
-CMD python app.py
+CMD ["python", "app.py"]
