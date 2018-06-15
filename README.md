@@ -19,6 +19,9 @@ make run SRC=${source.py}
 # after make build
 docker-compose up
 ```
-
+### exec one script
+```
+docker-compose exec py python sript.py
+```
 # LICENSE
 * MIT, see LICENSE
