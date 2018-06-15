@@ -1,7 +1,7 @@
 version: '3'
 services:
   jupyterlab:
-    image: py_prj
+    image: ynishi/python-tools 
     volumes:
       - .:/code
     ports:
@@ -11,7 +11,7 @@ services:
       - chrome
     command: jupyter lab --ip=0.0.0.0 --allow-root
   app:
-    image: py_prj
+    image: ynishi/python-tools 
     volumes:
       - .:/code
     ports:
