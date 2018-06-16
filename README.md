@@ -25,6 +25,12 @@ or
 docker run --rm -v $(pwd):/code ynishi/python-tools python
 ```
 ### common in dev
+#### login jupyterlab
+```
+docker-compose up -d
+docker-compose logs | grep token
+# replace domain to localhost or accessible hostname to container and browse
+```
 #### exec one script
 ```
 docker-compose exec jupyterlab python ${SCRIPT}
