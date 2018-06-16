@@ -1,28 +1,28 @@
-.PHONY: build bash usage
-SRC=app.py
-NAME=py_prj
+.PHONY: info build push lint test prepush
+VERSION := $(shell git describe --tags --exact-match 2>/dev/null || echo latest)
+ifeq (${VERSION}, head)
+	TAG = latest
+else
+	TAG = ${VERSION}
+endif
+REGISTRY ?=
+IMAGE ?= ynishi/python-tools
+TARGET := ${REGISTRY}${IMAGE}:${TAG}
 
-usage:
-	@echo usage:
-	@echo 'build, bash, run SRC=$${source.py}'
+info:
+	@echo "TARGET: ${TARGET}"
 
 build:
-	docker build -t $(NAME) .
+	docker build -t $(TARGET) .
 
-bash:
-	docker run --rm -it -v $$(pwd):/code $(NAME) bash 
+push: build
+	$(if $(filter $(TAG), latest), $(warning push latest tag, recommend versioned target.))
+	#docker push ${TARGET}
 
-run:
-	docker run --rm -it -v $$(pwd):/code $(NAME) python $(SRC)
+lint: build
+	docker run --rm ${TARGET} flake8
 
-ptpy:
-	docker run --rm -it -v $$(pwd):/code $(NAME) ptpython
+test: build
+	docker run --rm ${TARGET} pytest
 
-ptipy:
-	docker run --rm -it -v $$(pwd):/code $(NAME) ptipython
-
-autopep:
-	docker run --rm -it -v $$(pwd):/code $(NAME) autopep8 --in-place --aggressive --aggressive $(SRC)
-
-jupyterlab:
-	docker run --rm -it -v $$(pwd):/code -p 8888:8888 $(NAME) jupyter lab --ip=0.0.0.0 --allow-root
+prepush: lint test

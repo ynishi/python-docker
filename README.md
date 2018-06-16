@@ -1,28 +1,45 @@
 # docker-python
 python develop in docker
+
 dockerhub: https://hub.docker.com/r/ynishi/python-tools/
 
-# Usage
-## build
+## Usage
+### build
 ```
 make build
+# with options
+make build RESISTORY=myreg IMAGE=myimage
 ```
-## bash
+### push
 ```
-make bash
+make prepush
+make push
 ```
-## run a python script
+### run python
 ```
-make run SRC=${source.py}
-```
-## docker-compose up
-```
-# after make build
 docker-compose up
+docker-compose exec jupyterlab python
 ```
-### exec one script
+or
 ```
-docker-compose exec py python sript.py
+docker run --rm -v $(pwd):/code ynishi/python-tools python
+```
+### common in dev
+#### exec one script
+```
+docker-compose exec jupyterlab python ${SCRIPT}
+```
+```
+docker run --rm -v $(pwd):/code ynishi/python-tools python ${SCRIPT}
+```
+#### interactive
+```
+docker run --rm -it -v $(pwd):/code ynishi/python-tools [bash|ptipyton...]
+```
+#### autopep8 -- formatter
+```
+docker run --rm -it -v $(pwd):/code ynishi/python-tools autopep8 --in-place --aggressive --aggressive ${SRC}
 ```
 # LICENSE
 * MIT, see LICENSE
+

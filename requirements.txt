@@ -2,8 +2,6 @@ awscli
 beautifulsoup4
 boto3
 firebase-admin
-flake8
-autopep8
 flask
 ipython
 jupyter
@@ -15,9 +13,14 @@ pandas
 psycopg2-binary
 ptpython
 pygithub
+pytest
 python-lambda-local
 pyyaml
 requests
 selenium
 slackbot
 slackclient
+
+# resolve dependency conflict
+flake8
+autopep8
