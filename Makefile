@@ -17,7 +17,7 @@ build:
 
 push: build
 	$(if $(filter $(TAG), latest), $(warning push latest tag, recommend versioned target.))
-	#docker push ${TARGET}
+	docker push ${TARGET}
 
 lint: build
 	docker run --rm ${TARGET} flake8
