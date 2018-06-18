@@ -24,6 +24,11 @@ or
 ```
 docker run --rm -v $(pwd):/code ynishi/python-tools python
 ```
+### try sample
+```
+docker-compose up
+docker-compose exec jupyterlab python sample/${SRC}
+```
 ### common in dev
 #### login jupyterlab
 ```
