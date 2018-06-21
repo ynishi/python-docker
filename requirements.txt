@@ -1,26 +1,1025 @@
+about
+agate
+agate-dbf
+agate-excel
+agate-sql
+aiofiles
+aiokafka
+# ajenti # failed to install
+aldryn-blog
+aldryn-boilerplates
+aldryn-common
+alembic
+algorithms
+alipay
+altair
+altgraph
+amazon-dax-client
+amqp
+annoy
+ansible
+antlr4-python3-runtime
+apache-libcloud
+# apex # failed to install
+api
+apistar
+apistar-ponyorm
+APScheduler
+apsw
+arduino
+argcomplete
+argparse
+args
+asciimatics
+asn1crypto
+astropy
+asyncio
+asyncore-wsgi
+atom
+atomicwrites
+attrs
+audiolazy
+audioread
+Authomatic
+Automat
+autopep8
+# awesome # failed to install
+awesome-slugify
+aws-lambda-configurer
 awscli
+Babel
+backcall
+backports.pdb
+banal
+bandersnatch
+bashplotlib
+bcbio-nextgen
+bcrypt
+bdist_venv
+Beaker
+# BeautifulSoup # failed to install
 beautifulsoup4
+beets
+bidict
+billiard
+biopython
+# bitbake # failed to install
+# bjoern # failed to install
+blaze
+bleach
+blessings
+blinker
+bokeh
+boto
 boto3
+botocore
+bottle
+bottle-websocket
+box0
+bpython
+bqplot
+butterdb
+bytes
+c3-reference
+CacheControl
+cachetools
+Cactus
+# caffe2 # failed to install
+carteblanche
+Cartridge
+cassandra-driver
+cclib
+cdx
+celery
+cement
+Cerberus
+certifi
+cffi
+Chameleon
+chardet
+Chronyk
+circleci
+click
+click-completion
+click-didyoumean
+cliff
+clint
+cloudpickle
+cmd2
+cmigemo
+coala
+cocos2d
+codacy-coverage
+codecov
+codeship-yaml
+# Cola # failed to install
+colander
+collective.js.moment
+colorama
+colorlog
+colosseum
+colour
+conda
+config
+configobj
+configparser
+constantly
+content-io
+cookiecutter
+cornice
+coverage
+crossbar
+cryptography
+cssselect
+cssutils
+csvkit
+# ctypes # failed to install
+# cubicweb-subprocess # failed to install
+# cuisine # failed to install
+curdling
+currencies
+curses-2048
+curtsies
+cycler
+Cython
+cytoolz
+# dash # failed to install
+dask
+dataset
+datashape
+DateTime
+dbfread
+decorator
+deform
+defusedxml
+Dejavu
+delegator.py
+Delorean
+demiurge
+# devpi # failed to install
+dh
+# diesel # failed to install
+diskcache
+Django
+django-activity-stream
+# django-allauth # failed to install
+django-appconf
+django-appdata
+django-argonauts
+django-bootstrap3
+django-cache-machine
+django-cacheops
+# django-channels # failed to install
+django-classy-tags
+django-cms
+django-compressor
+django-countries
+django-crispy-forms
+django-debug-toolbar
+django-devserver
+django-elastic-transcoder
+django-filer
+django-formtools
+django-grappelli
+django-guardian
+django-haystack
+django-hvad
+django-jython
+django-markwhat
+django-mongodb-engine
+django-mptt
+django-nose
+# django-oauth-toolkit # failed to install
+django-openstack
+django-oscar
+# django-packages-search # failed to install
+django-pipeline
+django-polymorphic
+django-pyscss
+django-remote-forms
+django-rest-framework
+# django-rules # failed to install
+# django-schedule # failed to install
+django-sekizai
+django-select2
+# django-shop # failed to install
+# django-simple-captcha # failed to install
+django-simple-spam-blocker
+# django-slowtests # failed to install
+# django-socketio # failed to install
+django-sortedm2m
+django-sphinxdoc
+django-storages
+django-suit
+django-taggit
+django-tastypie
+django-treebeard
+django-viewlet
+# django-warehouse # failed to install
+django-widgy
+django-wordpress
+# django-xadmin # failed to install
+djangocms-admin-style
+djangocms-text-ckeditor
+djangorestframework
+djangotoolbox
+djedi-cms
+# docker # failed to install
+# docker-compose # failed to install
+docopt
+docutils
+docx2txt
+dogpile.cache
+doit
+doitlive
+dotted
+doublex
+easy-thumbnails
+EbookLib
+echo
+Eel
+elasticsearch
+elasticsearch1-dsl
+eliot
+elpy
+enaml
+entrypoints
+Envelopes
+# errbot # failed to install
+esengine
+et-xmlfile
+Eve
+eventlet
+Events
+eyeD3
+# Fabric # failed to install
+# fabric3-anaconda # failed to install
+# fabtools # failed to install
+facebook-sdk
+# facepy # failed to install
+factory_boy
+fairyscript
+fake2db
+# Faker # failed to install
+falcon
+fanstatic
+# fapws3 # failed to install
+fastFM
+fdleakfinder
+feedparser
+FeinCMS
 firebase-admin
-flask
+flake8
+flake8-ycm
+# flanker # failed to install
+Flask
+Flask-Admin
+Flask-API
+Flask-API-Utils
+Flask-Assets
+Flask-Cors
+Flask-DebugToolbar
+Flask-ICU
+# Flask-OAuthlib # failed to install
+# Flask-RESTful # failed to install
+# Flask-Restless # failed to install
+flexx
+flow
+flower
+flywheel
+fn.py
+forbiddenfruit
+# foreman # failed to install
+# forex-python # failed to install
+FormEncode
+# free # failed to install
+freezegun
+ftfy
+fuckit
+funcy
+furl
+future
+futures
+fuzzyfinder
+fuzzywuzzy
+Genshi
+# gensim # failed to install
+# geodjango-tigerleaflet # failed to install
+geographiclib
+GeoIP
+geojson
+geopy
+gevent
+gevent-socketio
+gevent-websocket
+ggplot
+# github # failed to install
+# github-trending # failed to install
+gmail
+good
+# Gooey # failed to install
+google-api-core
+google-api-python-client
+google-auth
+google-cloud-core
+google-cloud-firestore
+google-cloud-logging
+google-cloud-storage
+google-resumable-media
+googleapis-common-protos
+# Goose # failed to install
+grab
+graphviz
+green
+greenlet
+# grequests # failed to install
+grpcio
+# grs # failed to install
+# grumpy # failed to install
+gspread
+gunicorn
+happybase
+hashids
+haul
+# help # failed to install
+HermesCache
+hiredis
+honcho
+hot-redis
+# howdoi # failed to install
+html2text
+html5lib
+# httmock # failed to install
+# httpie # failed to install
+httplib2
+httpretty
+httptools
+huey
+# hug # failed to install
+humanize
+hunter
+hupper
+# hyde # failed to install
+hyperlink
+hypothesis
+id3reader
+idna
+imageio
+imbox
+# imgSeek # failed to install
+implicit
+inbox.py
+incremental
+# index # failed to install
+# init # failed to install
+ino
+ipaddress
+ipdb
+ipykernel
 ipython
+ipython-genutils
+ipywidgets
+ironpycompiler
+iso8601
+isodate
+itsdangerous
+jac
+jdcal
+jedi
+jellyfish
+jieba
+Jinja2
+jmespath
+joblib
+johnny-cache
+# jokekappa # failed to install
+jose
+json-schema
+json_schema
+jsonrpc2-zeromq
+jsonrpclib
+jsonschema
+# jtypes.jython # failed to install
 jupyter
+jupyter-client
+jupyter-console
+jupyter-core
+# jupyter_notebook # failed to install
 jupyterlab
+jupyterlab-launcher
+jws
+kafka-python
+kaptan
+# Keras # failed to install
+keyboard
+keyring
+# Kivy # failed to install
+kiwisolver
+kombu
+# Kotti # failed to install
+kube-shell
+kubernetes
+lamson
+# landlab # failed to install
+langid
+lassie
+leather
+# Lektor # failed to install
+Levenshtein-search
+libtmux
+# lightfm # failed to install
+line_profiler
+listparser
+lists
+littlecms
+llvmlite
+lml
+localshop
+lockfile
+# locust # failed to install
+Logbook
+# logging # failed to install
+lptrace
+luigi
+lxml
+m3u8
+macholib
+magickwand
+Mako
+mamba
+manhole
+Markdown
+markdown2
+MarkupSafe
+# Marmir # failed to install
+marrow.mailer
+marrow.util
+marshmallow
 matplotlib
+maya
+mccabe
+# MechanicalSoup # failed to install
+mediagoblin-private
+meinheld
+memory-profiler
+# memory_profiler # failed to install
+merchant
+metrics
+# Mezzanine # failed to install
+micawber
+# micropython-cpython-uasyncio # failed to install
+# micropython-difflib # failed to install
+# micropython-imghdr # failed to install
+# micropython-mimetypes # failed to install
+mimesis
+mingus
+# minicps # failed to install
+# mining # failed to install
+mistune
+# mixer # failed to install
+# mkdocs # failed to install
+mock
+mocket
+mode
+# model_mommy # failed to install
+# models # failed to install
+modernize
+# modoboa # failed to install
+modulegraph
+# moment # failed to install
+money
+mongoengine
+MonkeyType
+more-itertools
+mouse
+moviepy
+mox
+mpmath
+mrjob
+mrq
+msgpack
+msgpack-pure
+msgpack-pypy
+msgpack-python
+multidict
+multipledispatch
+# multiprocessing # failed to install
+munkres
+musicbrainzngs
+mutagen
+mxnet
+# mycli # failed to install
+mypy
 mysql-connector-python
+# MySQL-python # failed to install
+mysqlclient
+nameparser
+# napalm # failed to install
+nbconvert
+nbformat
+netius
+networkx
+# neupy # failed to install
+newsletter
+# newspaper # failed to install
+nibabel
+# Nikola # failed to install
+nipy
+# nltk # failed to install
+nmongo
+normality
+nose
+# nose2 # failed to install
+notebook
+# nshowrss # failed to install
+nudepy
+Nuitka
+numba
 numpy
+# nupic # failed to install
+# nylas # failed to install
+oauth2client
+oauthlib
+objgraph
+# obspy # failed to install
+odo
+ogrtools
+openpyxl
+# opps # failed to install
+# Optimus # failed to install
+# Orange # failed to install
+# Orange3-Timeseries # failed to install
+# orator # failed to install
+os.path2
+# oursql # failed to install
+# p # failed to install
+packaging
+pagan
+Panda3D
+panda3d
 pandas
+pandocfilters
+pangu
+pannote
+paramiko
+parsedatetime
+parso
+passlib
+PasteDeploy
+path.py
+pathlib
+# Pattern # failed to install
+pbkdf2
+pbr
+# pdfminer # failed to install
+pdoc
+# PeachPy # failed to install
+peewee
+pefile
+# pelican # failed to install
+# pelican-github-projects # failed to install
+# pendulum # failed to install
+peppercorn
+percol
+pexpect
+# pgcli # failed to install
+phonenumbers
+pickle-warehouse
+pickleDB
+pickleshare
+pidigits
+# PIL # failed to install
+Pillow
+pingo
+pip
+# pip-tools # failed to install
+pipenv
+plan
+plaster
+plaster-pastedeploy
+# platform42 # failed to install
+# platformio # failed to install
+# Plone # failed to install
+pluggy
+pluginbase
+ply
+plyvel
+podcast
+podcast-player
+polyglot
+pony
+# portia # failed to install
+postgres
+pox
+prettytable
+# privacy # failed to install
+profig
+# profiling # failed to install
+prompt-toolkit
+# prompt_toolkit # failed to install
+# prospector # failed to install
+protobuf
+# psq # failed to install
+psutil
+psycopg2
 psycopg2-binary
 ptpython
-pygithub
+ptyprocess
+pudb
+pulsar
+# purl # failed to install
+# push_to_talk # failed to install
+py
+py2app
+py2exe
+# py2neo # failed to install
+py4j
+pyaml
+pyasn1
+pyasn1-modules
+# pyAudioAnalysis # failed to install
+# PyAutoGUI # failed to install
+pyBarcode
+pybuilder
+pycairo
+pycallgraph
+# pycassa # failed to install
+Pycco
+# pycharm_testrunner # failed to install
+pychievements
+pycode
+pycodestyle
+pycparser
+pycryptodome
+# pycuda # failed to install
+pyDAL
+PyDispatcher
+pydub
+pydy
+pyechonest
+pyelftools
+pyexcel
+pyexcel-io
+pyfiglet
+pyflakes
+pygal
+pygame
+Pygame
+pygeoip
+PyGithub
+pyglet
+Pygments
+# PyGObject # failed to install
+pygram
+pygraphviz
+PyHamcrest
+PyICU
+pyinotify
+PyInstaller
+PyJWT
+# pylama # failed to install
+# pylibmc # failed to install
+# pylint # failed to install
+# pymc # failed to install
+pymmwr
+pymongo
+# pymssql # failed to install
+PyMySQL
+PyNaCl
+# pynamodb # failed to install
+# pynsist # failed to install
+# pyocr # failed to install
+PyOpenGL
+pyOpenSSL
+pyparsing
+pypattyrn
+PyPDF2
+pyperclip
+pypi
+pypinyin
+# PyQt4 # failed to install
+pyqtgraph
+pyquery
+pyramid
+# pyre # failed to install
+# pyRETS # failed to install
+# pyringe # failed to install
+pyrsistent
+pyScss
+PySDL2
+# pysec # failed to install
+# pyshorteners # failed to install
+# PySide # failed to install
+# pysolr # failed to install
+pyspark
+# pyspider # failed to install
+pystache
+# pyston # failed to install
+pytesseract
 pytest
+# pytest-ponyorm # failed to install
+# pytest-vcr # failed to install
+# Python # failed to install
+python-catcher
+python-daemon
+python-dateutil
+python-decouple
+python-docx
+python-editor
+python-fire
+python-lambda
 python-lambda-local
-pyyaml
+# python-libmemcached # failed to install
+python-magic
+python-mimeparse
+# python-musicbrainz # failed to install
+python-oauth2
+python-oembed
+python-patterns
+python-pptx
+python-slugify
+python-social-auth
+python-sql
+# python-stack # failed to install
+python3-openid
+# python_jwt # failed to install
+# pythonnet # failed to install
+pytime
+pytimeparse
+# pytorch # failed to install
+# pytorch-nlp # failed to install
+pytz
+# PyUserInput # failed to install
+pyutil
+# pyvw # failed to install
+pywebview
+# pywin32 # failed to install
+# pyXMLRPCssh # failed to install
+PyYAML
+# pyzeef # failed to install
+pyzmq
+# qrcode # failed to install
+qtconsole
+QtPy
+# quade # failed to install
+queries
+# quokka # failed to install
+# qutip # failed to install
+# r # failed to install
+radar
+ranking
+# rauth # failed to install
+raven
+rcssmin
+# rdkit # failed to install
+readability
+# real # failed to install
+reconfigure
+redis
+redis-py-cluster
+redisco
+reference_counter
+regex
+relatorio
+remote-pdb
+reportlab
+repoze.lru
 requests
+# requests-html # failed to install
+requests-oauthlib
+# responses # failed to install
+# restless # failed to install
+retype
+# ripozo # failed to install
+rjsmin
+RMS
+# robobrowser # failed to install
+robot
+# rocket # failed to install
+# rofi-tmux # failed to install
+# rq # failed to install
+rsa
+# s3cmd # failed to install
+s3transfer
+# s4cmd # failed to install
+saltstack-vulcan
+sanction
+# sandman # failed to install
+sanic
+Sanic
+# sanitize # failed to install
+sarge
+saws
+scapy
+schedule
+schema
+schematics
+# scikit-image # failed to install
+scikit-learn
+scikit-video
+# scikits.talkbox # failed to install
+scipy
+scons
+SCons
+# scoop # failed to install
+# Scrapy # failed to install
+sdx-common
+seaborn
+# security # failed to install
 selenium
+Send2Trash
+serpent
+setuptools
+sh
+shoop-checkoutfi
+# shop # failed to install
+short-url
+short_url
+shortuuid
+shutilwhich
+SimpleCV
+simplegeneric
+simplejson
+simpy
+six
+# Sixpack # failed to install
 slackbot
 slackclient
-
-# resolve dependency conflict
-flake8
-autopep8
+slacker
+smartypants
+snownlp
+social-auth-core
+# socli # failed to install
+solr
+# solrpy # failed to install
+sortedcontainers
+South
+# spacy # failed to install
+spark
+# spark-ml-streaming # failed to install
+speaklater
+SpeechRecognition
+# Sphinx # failed to install
+sphinx-me
+Spiff
+splinter
+spotlightpy
+# spyder # failed to install
+SQLAlchemy
+SQLObject
+sqlparse
+# stackless-python # failed to install
+# statsmodels # failed to install
+# status # failed to install
+stevedore
+# storm # failed to install
+# stream_framework # failed to install
+# streamparse # failed to install
+# sumy # failed to install
+superpowers
+# supervisor # failed to install
+# surprise # failed to install
+sympy
+# tablib # failed to install
+tabulate
+tailer
+# taskflow # failed to install
+tblib
+telephus
+# tensorflow # failed to install
+tensorrec
+termcolor
+terminado
+# Terms # failed to install
+termstyle
+# tesseract-ocr # failed to install
+# testing # failed to install
+testpath
+# textblob # failed to install
+textdistance
+# textract # failed to install
+texttable
+# Theano # failed to install
+# thefuck # failed to install
+# threading2 # failed to install
+# thug # failed to install
+# thumbor # failed to install
+# TimeSide # failed to install
+# Tinkerer # failed to install
+tinydb
+tinytag
+# tkinter3000 # failed to install
+tmuxp
+# toapi # failed to install
+toga
+toga-core
+toga-gtk
+tomorrow
+toolz
+tornado
+# tox # failed to install
+# tox-pyenv # failed to install
+tqdm
+# training # failed to install
+traitlets
+translationstring
+travis
+# treq # failed to install
+tricks
+# try # failed to install
+# tryton # failed to install
+Twisted
+# twython # failed to install
+txpostgres
+txredis
+# txZMQ # failed to install
+typed-ast
+typing
+tz
+tzlocal
+ua-parser
+ujson
+# unicode-slugify # failed to install
+Unidecode
+# uniout # failed to install
+Unipath
+# unittest # failed to install
+unoconv
+# unp # failed to install
+untangle
+urllib3
+urwid
+user-agents
+uvloop
+uWSGI
+valideer
+venusian
+venv-dependencies
+# vext.OpenCV # failed to install
+# vincent-qt # failed to install
+vine
+virtualenv
+virtualenv-clone
+# virtualenvwrapper # failed to install
+vispy
+voluptuous
+vowpal-porpoise
+vowpal_porpoise
+# vprof # failed to install
+vsgen
+vsgen-ptvs
+# wagtail # failed to install
+# wagtail-blog # failed to install
+waitress
+# waldur-openstack # failed to install
+Wand
+# watchdog # failed to install
+wcwidth
+# wdb # failed to install
+# WeasyPrint # failed to install
+web-pdb
+webargs
+webassets
+webencodings
+WebOb
+# websocket # failed to install
+websocket-client
+websockets
+weighted-levenshtein
+# wercker # failed to install
+Werkzeug
+wheel
+# when # failed to install
+whichcraft
+whitenoise
+Whoosh
+widgetsnbextension
+wifi
+winpython
+# Wooey # failed to install
+wsaccel
+WTForms
+# wxPython # failed to install
+x2y
+# xbob.buildout # failed to install
+xgboost
+xlrd
+XlsxWriter
+# xlwings # failed to install
+xlwt
+xmldataset
+xmlrpc2
+xmltodict
+xpinyin
+yagmail
+# yapylib # failed to install
+you-get
+youtube_dl
+YURL
+# zalando-aws-cli # failed to install
+# zappa # failed to install
+# zerorpc # failed to install
+# zipline # failed to install
+# ZODB # failed to install
+zope.deprecation
+zope.interface
