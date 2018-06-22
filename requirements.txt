@@ -269,7 +269,6 @@ fdleakfinder
 feedparser
 FeinCMS
 firebase-admin
-flake8
 flake8-ycm
 # flanker # failed to install
 Flask
