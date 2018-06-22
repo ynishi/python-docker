@@ -1,2 +1,3 @@
 flake8
-prompt-toolkit==1.0.15
+jupyterlab
+slackbot
