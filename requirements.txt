@@ -83,7 +83,7 @@ bytes
 c3-reference
 CacheControl
 cachetools
-Cactus
+# Cactus # requirement is incompatible
 # caffe2 # failed to install
 carteblanche
 # Cartridge # requirement is incompatible
