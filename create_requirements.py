@@ -22,6 +22,7 @@ conf = {
     'failed_install_msg': 'Failed install package: {}',
     'already_installed_msg': 'Already installed package: {}',
     'requirements_filename': 'requirements.txt.auto',
+    'incompatible_raw_filename': 'incompatible_raw.txt',
 }
 
 
@@ -101,6 +102,41 @@ def make_freezed() -> Set[str]:
     return set([x.split('==')[0] for x in freeze.freeze()])
 
 
+def exclude_incompatible(
+        incompatibles: List[str],
+        requirements: List[str]) -> List[str]:
+    '''
+    comment out incompatible
+    '''
+    out = []
+    for req in requirements:
+        # remove return code expect unix like
+        req = req[:-1]
+        if req in incompatibles:
+            out += ["# {} # requirement is incompatible".format(req)]
+        else:
+            out += [req]
+    return out
+
+
+def msg2incompatibles(msg: str) -> List[str]:
+    '''
+    convert raw stdout message to incompatible package name list
+    '''
+    msg_list = list(set([line.split(" ")[0] for line in msg.split("\n")]))
+    msg_list.sort
+    return msg_list
+
+
+def make_incompatibles() -> List[str]:
+    '''
+    make incompatible package name list
+    '''
+    with open(conf['incompatible_raw_filename']) as f:
+        msg = f.read()
+    return msg2incompatibles(msg)
+
+
 if __name__ == "__main__":
 
     candidate = make_candidate()
@@ -108,6 +144,8 @@ if __name__ == "__main__":
     packages = make_packages(candidate, freezed)
     requirements = (pkg2requirement(pakcage)
                     for pakcage in set2sorted(packages))
+    incompatibles = make_incompatibles()
+    excluded = exclude_incompatible(incompatibles, requirements)
 
     with open(conf['requirements_filename'], "w") as f:
-        f.write('\n'.join(requirements))
+        f.write('\n'.join(excluded))
