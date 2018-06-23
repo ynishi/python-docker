@@ -1,3 +1,7 @@
-flake8
-jupyterlab
-slackbot
+amazon-dax-client # Downgrade antlr4-python3-runtime
+awscli # Downgrade botocore
+crossbar # Downgrade idna
+flake8 # Downgrade: pycodestyle
+jupyterlab # Downgrade: prompt-toolkit
+luigi # Downgrade: tornado
+slackbot # Downgrade: websocket-client
