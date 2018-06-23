@@ -4,17 +4,17 @@ agate-dbf
 agate-excel
 agate-sql
 aiofiles
-aiokafka
+# aiokafka # requirement is incompatible
 # ajenti # failed to install
-aldryn-blog
-aldryn-boilerplates
-aldryn-common
+# aldryn-blog # requirement is incompatible
+# aldryn-boilerplates # requirement is incompatible
+# aldryn-common # requirement is incompatible
 alembic
 algorithms
 alipay
 altair
 altgraph
-amazon-dax-client
+# amazon-dax-client # requirement is incompatible
 amqp
 annoy
 ansible
@@ -44,7 +44,7 @@ Authomatic
 Automat
 autopep8
 # awesome # failed to install
-awesome-slugify
+# awesome-slugify # requirement is incompatible
 aws-lambda-configurer
 awscli
 Babel
@@ -86,7 +86,7 @@ cachetools
 Cactus
 # caffe2 # failed to install
 carteblanche
-Cartridge
+# Cartridge # requirement is incompatible
 cassandra-driver
 cclib
 cdx
@@ -98,7 +98,7 @@ cffi
 Chameleon
 chardet
 Chronyk
-circleci
+# circleci # requirement is incompatible
 click
 click-completion
 click-didyoumean
@@ -107,11 +107,11 @@ clint
 cloudpickle
 cmd2
 cmigemo
-coala
+# coala # requirement is incompatible
 cocos2d
 codacy-coverage
 codecov
-codeship-yaml
+# codeship-yaml # requirement is incompatible
 # Cola # failed to install
 colander
 collective.js.moment
@@ -150,7 +150,7 @@ datashape
 DateTime
 dbfread
 decorator
-deform
+# deform # requirement is incompatible
 defusedxml
 Dejavu
 delegator.py
@@ -164,21 +164,21 @@ Django
 django-activity-stream
 # django-allauth # failed to install
 django-appconf
-django-appdata
+# django-appdata # requirement is incompatible
 django-argonauts
 django-bootstrap3
 django-cache-machine
 django-cacheops
 # django-channels # failed to install
 django-classy-tags
-django-cms
+# django-cms # requirement is incompatible
 django-compressor
 django-countries
 django-crispy-forms
 django-debug-toolbar
 django-devserver
-django-elastic-transcoder
-django-filer
+# django-elastic-transcoder # requirement is incompatible
+# django-filer # requirement is incompatible
 django-formtools
 django-grappelli
 django-guardian
@@ -208,7 +208,7 @@ django-simple-spam-blocker
 # django-slowtests # failed to install
 # django-socketio # failed to install
 django-sortedm2m
-django-sphinxdoc
+# django-sphinxdoc # requirement is incompatible
 django-storages
 django-suit
 django-taggit
@@ -220,7 +220,7 @@ django-widgy
 django-wordpress
 # django-xadmin # failed to install
 djangocms-admin-style
-djangocms-text-ckeditor
+# djangocms-text-ckeditor # requirement is incompatible
 djangorestframework
 djangotoolbox
 djedi-cms
@@ -246,7 +246,7 @@ enaml
 entrypoints
 Envelopes
 # errbot # failed to install
-esengine
+# esengine # requirement is incompatible
 et-xmlfile
 Eve
 eventlet
@@ -259,7 +259,7 @@ facebook-sdk
 # facepy # failed to install
 factory_boy
 fairyscript
-fake2db
+# fake2db # requirement is incompatible
 # Faker # failed to install
 falcon
 fanstatic
@@ -395,7 +395,7 @@ johnny-cache
 jose
 json-schema
 json_schema
-jsonrpc2-zeromq
+# jsonrpc2-zeromq # requirement is incompatible
 jsonrpclib
 jsonschema
 # jtypes.jython # failed to install
@@ -416,12 +416,12 @@ keyring
 kiwisolver
 kombu
 # Kotti # failed to install
-kube-shell
+# kube-shell # requirement is incompatible
 kubernetes
 lamson
 # landlab # failed to install
 langid
-lassie
+# lassie # requirement is incompatible
 leather
 # Lektor # failed to install
 Levenshtein-search
@@ -433,7 +433,7 @@ lists
 littlecms
 llvmlite
 lml
-localshop
+# localshop # requirement is incompatible
 lockfile
 # locust # failed to install
 Logbook
@@ -495,7 +495,7 @@ moviepy
 mox
 mpmath
 mrjob
-mrq
+# mrq # requirement is incompatible
 msgpack
 msgpack-pure
 msgpack-pypy
@@ -506,7 +506,7 @@ multipledispatch
 munkres
 musicbrainzngs
 mutagen
-mxnet
+# mxnet # requirement is incompatible
 # mycli # failed to install
 mypy
 mysql-connector-python
@@ -571,7 +571,7 @@ pathlib
 pbkdf2
 pbr
 # pdfminer # failed to install
-pdoc
+# pdoc # requirement is incompatible
 # PeachPy # failed to install
 peewee
 pefile
@@ -639,7 +639,7 @@ pyasn1-modules
 # pyAudioAnalysis # failed to install
 # PyAutoGUI # failed to install
 pyBarcode
-pybuilder
+# pybuilder # requirement is incompatible
 pycairo
 pycallgraph
 # pycassa # failed to install
@@ -657,8 +657,8 @@ pydub
 pydy
 pyechonest
 pyelftools
-pyexcel
-pyexcel-io
+# pyexcel # requirement is incompatible
+# pyexcel-io # requirement is incompatible
 pyfiglet
 pyflakes
 pygal
@@ -719,6 +719,7 @@ pytest
 # pytest-ponyorm # failed to install
 # pytest-vcr # failed to install
 # Python # failed to install
+python-box
 python-catcher
 python-daemon
 python-dateutil
@@ -726,7 +727,7 @@ python-decouple
 python-docx
 python-editor
 python-fire
-python-lambda
+# python-lambda # requirement is incompatible
 python-lambda-local
 # python-libmemcached # failed to install
 python-magic
