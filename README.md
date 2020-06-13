@@ -58,6 +58,16 @@ docker-compose exec jupyterlab python create_requirements.txt
 # merge current requirements.txt and requirements.txt.auto
 # make build to install into image
 ```
+#### setup service
+* eg. as jupyterlab service
+```
+# set up WorkingDirectory
+vi python-docker.service
+
+sudo cp python-docker.service /etc/systemd/system/jupyterlab.service
+# check
+sudo systemctl list-unit-files --type=service | grep jupyterlab
+```
 
 # LICENSE
 * MIT, see LICENSE
